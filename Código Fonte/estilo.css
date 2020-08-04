@@ -13,3 +13,9 @@ div.borda{
     margin: auto;
     padding: 30px;
 }
+form{
+    padding: 15px 0px 0px 15px;
+}
+legend{
+    font-style: normal;
+}

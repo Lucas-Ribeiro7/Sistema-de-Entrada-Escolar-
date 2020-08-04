@@ -22,7 +22,16 @@
                     <input type="radio" name="sexo" id="sexo" value="feminino">
                     <label for="feminino">Feminino</label>
                     <br>
-                    <label></label>
+                    <br>
+                    <label>Setor:</label> <br>
+                    <input type="checkbox" name="setor" value="Secretaria">
+                    <label for="Secretaria">Secretaria</label> <br>
+                    <input type="checkbox" name="setor" value="Portaria">
+                    <label for="Portaria">Portaria</label> <br>
+                    <input type="checkbox" name="setor" value="Limpeza">
+                    <label for="Limpeza">Limpeza</label> <br>
+                    <input type="checkbox" name="setor" value="Cantina">
+                    <label for="Cantina">Cantina</label>
                     <br>
                     <br>
                     <input type="button" value="Enviar">
