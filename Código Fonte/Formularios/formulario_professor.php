@@ -7,12 +7,13 @@
 </head>
 <body>
     <div class="borda">
-        <h2 class="titulo">Cadastro de Aluno</h2>
+        <h2 class="titulo">Cadastro de Funcionário</h2>
+        <fieldset> <legend>Formulário</legend>
             <form action="" method="POST">
                     <label>Nome:</label>
                     <input type="text" name="nome" id="nome" value="nome">
                     <br>
-                    <label>Idade:</label>
+                    <label>Data de Nascimento:</label>
                     <input type="date" name="dtnasc" id="dtnasc" value="dtnasc">
                     <br>
                     <label>Sexo:</label>
@@ -24,6 +25,7 @@
                     <br>
                     <input type="button" value="Enviar">
             </form>
+        </fieldset>    
     </div>
 </body>
 </html>

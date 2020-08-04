@@ -23,16 +23,13 @@
                             require_once 'Formularios/formulario_aluno.php';
                         break;
                         case "professor" :
-                            echo "<p>Professor</p>";
-                            //$professor = new professor();
+                            require_once 'Formularios/formulario_professor.php';
                         break;
                         case "funcionario" :
-                            echo "<p>Funcionario</p>";
-                            //$funcionario = new funcionario();
+                            require_once 'Formularios/formulario_funcionario.php';
                         break;
                         case "visitante" :
-                            echo "<p>Visitante</p>";
-                            //$visitante = new visitante();
+                            require_once 'Formularios/formulario_visitante.php';
                         break;
                         default :
                             echo "<p>[ERRO]</p>";
