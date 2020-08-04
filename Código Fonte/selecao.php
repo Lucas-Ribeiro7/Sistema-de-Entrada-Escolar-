@@ -20,8 +20,7 @@
                 }else{
                     switch($selecao){
                         case "aluno" :
-                            echo "<p>Aluno</p>";
-                            //$aluno = new aluno();
+                            require_once 'Formularios/formulario_aluno.php';
                         break;
                         case "professor" :
                             echo "<p>Professor</p>";
@@ -42,7 +41,7 @@
                 
         ?>
         <div class="voltar">
-            <a href="index.html"><img src="imagens/voltar1.png" width="60"></a>
+            <a href="index.php"><img src="Imagens/voltar1.png" width="60"></a>
         </div>
         
     </div>

@@ -13,20 +13,7 @@
 
     <div class="borda">
         <h2 class="titulo">Sistema Educantil</h2>
-        <div class="form">
             <form method="POST" action="selecao.php" class="inicial">
-                <label>Nome:</label>
-                <input type="text" name="nome" id="nome" value="nome">
-                <br>
-                <label>Idade:</label>
-                <input type="date" name="dtnasc" id="dtnasc" value="dtnasc">
-                <br>
-                <label>Sexo:</label>
-                <input type="radio" name="sexo" id="sexo" value="masculino">
-                <label for="masculino">Masculino</label>
-                <input type="radio" name="sexo" id="sexo" value="feminino">
-                <label for="feminino">Feminino</label>
-                <br>
                 <label><strong>Por favor informe a sua posição neste momento:</strong></label>
                 <br>
                 <br>
@@ -41,15 +28,7 @@
                 <br>
                 <br>
                 <input type="submit" value="Enviar">
-            </form>
-        </div>
-        <div id="resul">
-            <script>
-                function aluno(){
-                var resul = document.getElementById('1').innerHTML = "Test";
-                }
-            </script>
-        </div>
+            </form>        
     </div>
 
 
