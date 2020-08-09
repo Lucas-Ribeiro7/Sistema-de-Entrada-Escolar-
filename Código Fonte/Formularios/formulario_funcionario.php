@@ -11,7 +11,7 @@
         <fieldset> <legend>Formulário</legend>
             <form action="" method="POST">
                     <label>Nome:</label>
-                    <input type="text" name="nome" id="nome" value="nome">
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
                     <br>
                     <label>Data de Nascimento:</label>
                     <input type="date" name="dtnasc" id="dtnasc" value="dtnasc">
@@ -24,13 +24,13 @@
                     <br>
                     <br>
                     <label>Setor:</label> <br>
-                    <input type="checkbox" name="setor" value="Secretaria">
+                    <input type="radio" name="setor" value="Secretaria">
                     <label for="Secretaria">Secretaria</label> <br>
-                    <input type="checkbox" name="setor" value="Portaria">
+                    <input type="radio" name="setor" value="Portaria">
                     <label for="Portaria">Portaria</label> <br>
-                    <input type="checkbox" name="setor" value="Limpeza">
+                    <input type="radio" name="setor" value="Limpeza">
                     <label for="Limpeza">Limpeza</label> <br>
-                    <input type="checkbox" name="setor" value="Cantina">
+                    <input type="radio" name="setor" value="Cantina">
                     <label for="Cantina">Cantina</label>
                     <br>
                     <br>
