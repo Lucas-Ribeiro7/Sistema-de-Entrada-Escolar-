@@ -7,14 +7,16 @@
 </head>
 <body>
     <div class="borda">
-        <h2 class="titulo">Cadastro de Funcionário</h2>
+        <h2 class="titulo">Cadastro de Visitantes</h2>
         <fieldset> <legend> <strong>Formulário</strong> </legend>
             <form action="" method="POST">
                     <label>Nome:</label>
                     <input type="text" name="nome" id="nome" placeholder="Nome">
                     <br>
+                    <br>
                     <label>Data de Nascimento:</label>
                     <input type="date" name="dtnasc" id="dtnasc" value="dtnasc">
+                    <br>
                     <br>
                     <label>Sexo:</label>
                     <input type="radio" name="sexo" id="sexo" value="masculino">
@@ -27,6 +29,5 @@
             </form>
         </fieldset>    
     </div>    
-    </div>
 </body>
 </html>
