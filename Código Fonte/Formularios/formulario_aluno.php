@@ -8,13 +8,15 @@
 <body>
     <div class="borda">
         <h2 class="titulo">Cadastro de Aluno</h2>
-        <fieldset> <legend>Formulario</legend>
+        <fieldset> <legend> <strong>Formulário</strong> </legend>
             <form action="" method="POST">
                     <label>Nome:</label>
                     <input type="text" name="nome" id="nome" placeholder="Nome">
                     <br>
+                    <br>
                     <label>Data de Nascimento:</label>
                     <input type="date" name="dtnasc" id="dtnasc" value="dtnasc">
+                    <br>
                     <br>
                     <label>Sexo:</label>
                     <input type="radio" name="sexo" id="sexo" value="masculino">
@@ -22,8 +24,10 @@
                     <input type="radio" name="sexo" id="sexo" value="feminino">
                     <label for="feminino">Feminino</label>
                     <br>
+                    <br>
                     <label>Matricula:</label>
                     <input type="number" name="matricula" id="matricula" placeholder="Matricula">
+                    <br>
                     <br>
                     <label>Curso:</label>
                     <input type="text" name="curso" id="curso" placeholder="Curso">

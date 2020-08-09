@@ -8,10 +8,10 @@
 <body>
     <div class="borda">
         <h2 class="titulo">Cadastro de Funcionário</h2>
-        <fieldset> <legend>Formulário</legend>
+        <fieldset> <legend> <strong>Formulário</strong> </legend>
             <form action="" method="POST">
                     <label>Nome:</label>
-                    <input type="text" name="nome" id="nome" value="nome">
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
                     <br>
                     <label>Data de Nascimento:</label>
                     <input type="date" name="dtnasc" id="dtnasc" value="dtnasc">
@@ -26,6 +26,7 @@
                     <input type="button" value="Enviar">
             </form>
         </fieldset>    
+    </div>    
     </div>
 </body>
 </html>
