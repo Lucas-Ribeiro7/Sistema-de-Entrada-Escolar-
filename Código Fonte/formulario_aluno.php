@@ -9,28 +9,28 @@
     <div class="borda">
         <h2 class="titulo">Cadastro de Aluno</h2>
         <fieldset> <legend> <strong>Formulário</strong> </legend>
-            <form action="" method="POST">
+            <form action="create_cadastro.php" method="POST">
                     <label>Nome:</label>
-                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" require>
                     <br>
                     <br>
                     <label>Data de Nascimento:</label>
-                    <input type="date" name="dtnasc" id="dtnasc" value="dtnasc">
+                    <input type="date" name="dtnasc" id="dtnasc" value="dtnasc" require>
                     <br>
                     <br>
                     <label>Sexo:</label>
-                    <input type="radio" name="sexo" id="sexo" value="masculino">
+                    <input type="radio" name="sexo" id="sexo" value="masculino"> 
                     <label for="masculino">Masculino</label>
                     <input type="radio" name="sexo" id="sexo" value="feminino">
                     <label for="feminino">Feminino</label>
                     <br>
                     <br>
                     <label>Matricula:</label>
-                    <input type="number" name="matricula" id="matricula" placeholder="Matricula">
+                    <input type="number" name="matricula" id="matricula" placeholder="Matricula" require>
                     <br>
                     <br>
                     <label>Curso:</label>
-                    <input type="text" name="curso" id="curso" placeholder="Curso">
+                    <input type="text" name="curso" id="curso" placeholder="Curso" require>
                     <br>
                     <br>
                     <input type="button" value="Enviar">
