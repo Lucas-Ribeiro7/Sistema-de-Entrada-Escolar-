@@ -20,16 +20,16 @@
                 }else{
                     switch($selecao){
                         case "aluno" :
-                            require_once 'Formularios/formulario_aluno.php';
+                            require_once 'formulario_aluno.php';
                         break;
                         case "professor" :
-                            require_once 'Formularios/formulario_professor.php';
+                            require_once 'formulario_professor.php';
                         break;
                         case "funcionario" :
-                            require_once 'Formularios/formulario_funcionario.php';
+                            require_once 'formulario_funcionario.php';
                         break;
                         case "visitante" :
-                            require_once 'Formularios/formulario_visitante.php';
+                            require_once 'formulario_visitante.php';
                         break;
                         default :
                             echo "<p>[ERRO]</p>";
