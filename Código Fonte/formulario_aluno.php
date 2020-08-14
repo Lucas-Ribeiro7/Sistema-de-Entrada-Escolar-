@@ -11,11 +11,11 @@
         <fieldset> <legend> <strong>Formulário</strong> </legend>
             <form action="create_cadastro.php" method="POST">
                     <label>Nome:</label>
-                    <input type="text" name="nome" id="nome" placeholder="Nome" require>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
                     <br>
                     <br>
                     <label>Data de Nascimento:</label>
-                    <input type="date" name="dtnasc" id="dtnasc" value="dtnasc" require>
+                    <input type="date" name="dtnasc" id="dtnasc" required>
                     <br>
                     <br>
                     <label>Sexo:</label>
@@ -26,14 +26,14 @@
                     <br>
                     <br>
                     <label>Matricula:</label>
-                    <input type="number" name="matricula" id="matricula" placeholder="Matricula" require>
+                    <input type="number" name="matricula" id="matricula" placeholder="Matricula" required>
                     <br>
                     <br>
                     <label>Curso:</label>
-                    <input type="text" name="curso" id="curso" placeholder="Curso" require>
+                    <input type="text" name="curso" id="curso" placeholder="Curso" required>
                     <br>
                     <br>
-                    <input type="button" value="Enviar">
+                    <input type="submit" value="Enviar">
             </form>
         </fieldset>
     </div>
