@@ -23,6 +23,10 @@ require_once 'pessoa.php';
             $this->curso = $cur;
         }
 
+        public function apresentarAluno(){
+            echo "<p><strong>Seu cadastro foi salvo com Sucesso!</strong></p><br><p>O Aluno <strong>" . $this->getNome() . "</strong> com a Matricula de número <strong>" . $this->getMatr() . "</strong>, tem " . $this->getIdade() . " anos e do sexo " . $this->getSexo() . ". Atualmente cursando " . $this->getCurso() . " está oficalmente cadastrado.<p>";
+        }
+
         public function pagarMensalidade(){
             echo "<p>O Aluno(a) " . $this->getNome() . " pagou a sua mensalidade com sucesso</p>";
         }
@@ -31,3 +35,4 @@ require_once 'pessoa.php';
             echo "<p>" . $this->getNome() . " sua matricula foi cancelada</p>";
         }
     }
+ 

@@ -19,10 +19,10 @@
                     <br>
                     <br>
                     <label>Sexo:</label>
-                    <input type="radio" name="sexo" id="sexo" value="masculino"> 
-                    <label for="masculino">Masculino</label>
-                    <input type="radio" name="sexo" id="sexo" value="feminino">
-                    <label for="feminino">Feminino</label>
+                    <input type="radio" name="sexo" id="sexo" value="Masculino"> 
+                    <label for="Masculino">Masculino</label>
+                    <input type="radio" name="sexo" id="sexo" value="Feminino">
+                    <label for="Feminino">Feminino</label>
                     <br>
                     <br>
                     <label>Matricula:</label>
