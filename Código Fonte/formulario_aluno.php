@@ -9,7 +9,7 @@
     <div class="borda">
         <h2 class="titulo">Cadastro de Aluno</h2>
         <fieldset> <legend> <strong>Formulário</strong> </legend>
-            <form action="create_cadastro.php" method="POST">
+            <form action="create_aluno.php" method="POST">
                     <label>Nome:</label>
                     <input type="text" name="nome" id="nome" placeholder="Nome" required>
                     <br>
