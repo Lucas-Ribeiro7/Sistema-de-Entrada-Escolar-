@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
     <title>Sistema Educantil</title>
 </head>
 <body>
@@ -19,9 +20,9 @@
                     <br>
                     <br>
                     <label>Sexo:</label>
-                    <input type="radio" name="sexo" id="sexo" value="Masculino"> 
+                    <input type="radio" name="sexo" id="sexo" value="Masculino" required>  
                     <label for="Masculino">Masculino</label>
-                    <input type="radio" name="sexo" id="sexo" value="Feminino">
+                    <input type="radio" name="sexo" id="sexo" value="Feminino" required>
                     <label for="Feminino">Feminino</label>
                     <br>
                     <br>
@@ -36,6 +37,6 @@
                     <input type="submit" value="Enviar">
             </form>
         </fieldset>
-    </div>
+    </div> 
 </body>
 </html>

@@ -17,13 +17,13 @@
                 <label><strong>Por favor informe a sua posição neste momento:</strong></label>
                 <br>
                 <br>
-                <input type="radio" name="selecao" id="aluno" value="aluno" onclick="aluno()">
+                <input type="radio" name="selecao" id="aluno" value="aluno" required>
                 <label for="aluno">Aluno</label>
-                <input type="radio" name="selecao" id="professor" value="professor" onclick="professor()">
+                <input type="radio" name="selecao" id="professor" value="professor">
                 <label for="professor">Professor</label>
-                <input type="radio" name="selecao" id="funcionario" value="funcionario" onclick="funcionario()">
+                <input type="radio" name="selecao" id="funcionario" value="funcionario">
                 <label for="funcionario">Funcionário</label>
-                <input type="radio" name="selecao" id="visitante" value="visitante" onclick="visitante()">
+                <input type="radio" name="selecao" id="visitante" value="visitante">
                 <label for="visitante">Visitante</label>
                 <br>
                 <br>

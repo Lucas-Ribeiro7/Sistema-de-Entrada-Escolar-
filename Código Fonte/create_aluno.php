@@ -41,7 +41,9 @@
 
 
             ?>
-            
+            <div class="voltar">
+            <a href="formulario_aluno.php"><button>Novo Cadastro</button></a>
+            </div>
     </div>
 </body>
 </html>
