@@ -22,3 +22,6 @@ legend{
 input[label]{
     width: 50px;
 }
+form input[type="text"]{
+    width: 500px;
+}
