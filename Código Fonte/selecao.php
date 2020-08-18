@@ -37,9 +37,6 @@
                 }
                 
         ?>
-        <div class="voltar">
-            <a href="index.php"><img src="Imagens/voltar1.png" width="60"></a>
-        </div>
         
     </div>
 
