@@ -12,7 +12,7 @@
         <fieldset> <legend> <strong>Formulário</strong> </legend>
             <form action="create_aluno.php" method="POST">
                     <label>Nome:</label>
-                    <input type="text" name="nome" id="nome" placeholder="Nome" size="30" required>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
                     <!-- Size pode aumentar a largura os input, para assim coloque-o um nome completo !-->
                     <br>
                     <br>
@@ -32,7 +32,7 @@
                     <br>
                     <br>
                     <label>Curso:</label>
-                    <input type="text" name="curso" id="curso" placeholder="Curso" size="30" required>
+                    <input type="text" name="curso" id="curso" placeholder="Curso" required>
                     <br>
                     <br>
                     <input type="submit" value="Enviar">

@@ -10,7 +10,7 @@
     <div class="borda">
         <h2 class="titulo">Cadastro de Professores</h2>
         <fieldset> <legend> <strong>Formulário</strong> </legend>
-            <form action="" method="POST">
+            <form action="create_professor.php" method="POST">
                     <label>Nome:</label>
                     <input type="text" name="nome" id="nome" placeholder="Nome">
                     <br>
@@ -31,10 +31,10 @@
                     <br>
                     <br>
                     <label>Salário:</label>
-                    <input type="number" name="salario" placeholder="Salário" min="2.500" max="7.000">
+                    <input type="number" name="salario" placeholder="Salário">
                     <br>
                     <br>
-                    <input type="button" value="Enviar">
+                    <input type="submit" value="Enviar">
                     <input type="reset" value="Limpar">
             </form>
         </fieldset> 

@@ -30,14 +30,12 @@
                     $matricula = $_POST['matricula'];
                     $curso = $_POST['curso'];
 
-                    //Criação do Objeto
-                    $aluno = array();
-                    //Aluno 1
-                    $aluno[0] = new aluno($matricula, $curso);
-                    $aluno[0]->setNome($nome);
-                    $aluno[0]->setIdade($idade);
-                    $aluno[0]->setSexo($sexo);
-                    $aluno[0]->apresentarAluno();
+                    //Aluno
+                    $aluno = new aluno($matricula, $curso);
+                    $aluno->setNome($nome);
+                    $aluno->setIdade($idade);
+                    $aluno->setSexo($sexo);
+                    $aluno->apresentarAluno();
 
 
             ?>

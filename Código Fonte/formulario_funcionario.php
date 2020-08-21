@@ -9,7 +9,7 @@
     <div class="borda">
         <h2 class="titulo">Cadastro de Funcionário</h2>
         <fieldset> <legend> <strong>Formulário</strong> </legend>
-            <form action="" method="POST">
+            <form action="create_funionario.php" method="POST">
                     <label>Nome:</label>
                     <input type="text" name="nome" id="nome" placeholder="Nome">
                     <br>
