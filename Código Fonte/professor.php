@@ -23,7 +23,7 @@ require_once 'pessoa.php';
             $this->salario = $sal;
         }
 
-        public function apresentarAluno(){
+        public function apresentarProfessor(){
             echo "<p><strong>Seu cadastro foi salvo com Sucesso!</strong></p><br><p>O Professor <strong>" . $this->getNome() . "</strong> em Especialidade em <strong>" . $this->getEspecialidade() . "</strong>, tem " . $this->getIdade() . " anos e do sexo " . $this->getSexo() . ". Atualmente ganha um salario de " . $this->getSalario() . ". Está oficalmente cadastrado.<p>";
         }
 

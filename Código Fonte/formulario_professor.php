@@ -12,7 +12,7 @@
         <fieldset> <legend> <strong>Formulário</strong> </legend>
             <form action="create_professor.php" method="POST">
                     <label>Nome:</label>
-                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                    <input type="text" name="nome" id="nome" size="25" placeholder="Nome">
                     <br>
                     <br>
                     <label>Data de Nascimento:</label>
@@ -31,7 +31,7 @@
                     <br>
                     <br>
                     <label>Salário:</label>
-                    <input type="number" name="salario" placeholder="Salário">
+                    <input type="number" name="salario" size="5" placeholder="Salário" min="1045">
                     <br>
                     <br>
                     <input type="submit" value="Enviar">

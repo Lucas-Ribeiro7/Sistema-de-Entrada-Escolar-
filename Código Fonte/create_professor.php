@@ -10,10 +10,10 @@
     <div class="borda">
             <?php
                 require_once 'professor.php';
-                    function descobriIdade($dtnasc){
+                    function descobriIdadeProfessor($dtnasc){
                         $data = explode("-", $dtnasc);
                         
-                        $anoNasc = $data;
+                        $anoNasc = $data[0];
                         $mesNasc = $data[1];
                         $diaNasc = $data[2];
 
@@ -26,7 +26,7 @@
                     $nome = $_POST['nome'];
                     $dtnasc = $_POST['dtnasc'];
                     $sexo = $_POST['sexo'];
-                    $idade = descobriIdade($dtnasc);
+                    $idade = descobriIdadeProfessor($dtnasc);
                     $especialidade = $_POST['especialidade'];
                     $salario = $_POST['salario'];
 
