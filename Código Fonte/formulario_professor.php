@@ -31,7 +31,7 @@
                     <br>
                     <br>
                     <label>Salário:</label>
-                    <input type="number" name="salario" size="5" placeholder="Salário" min="1045">
+                    <input type="number" name="salario" placeholder="Salário" min="1045">
                     <br>
                     <br>
                     <input type="submit" value="Enviar">

@@ -24,10 +24,14 @@
 
                     //Professor
                     $nome = $_POST['nome'];
+                    $nome = strtolower($nome);
+                    $nome = ucwords($nome);
                     $dtnasc = $_POST['dtnasc'];
                     $sexo = $_POST['sexo'];
                     $idade = descobriIdadeProfessor($dtnasc);
                     $especialidade = $_POST['especialidade'];
+                    $especialidade = strtolower($especialidade);
+                    $especialidade = ucwords($especialidade);
                     $salario = $_POST['salario'];
 
                     

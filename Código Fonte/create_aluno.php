@@ -24,6 +24,7 @@
 
                     //Aluno
                     $nome = $_POST['nome'];
+                    $nome = strtolower($nome);
                     $nome = ucwords($nome);
                     $dtnasc = $_POST['dtnasc'];
                     $sexo = $_POST['sexo'];
