@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
     <title>Sistema Educantil</title>
 </head>
 <body>
     <div class="borda">
         <h2 class="titulo">Cadastro de Funcionário</h2>
         <fieldset> <legend> <strong>Formulário</strong> </legend>
-            <form action="create_funionario.php" method="POST">
+            <form action="create_funcionario.php" method="POST">
                     <label>Nome:</label>
-                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                    <input type="text" name="nome" id="nome" size="25" placeholder="Nome">
                     <br>
                     <br>
                     <label>Data de Nascimento:</label>
@@ -36,7 +37,7 @@
                     <label for="Cantina">Cantina</label>
                     <br>
                     <br>
-                    <input type="button" value="Enviar">
+                    <input type="submit" value="Enviar">
                     <input type="reset" value="Limpar">
             </form>
         </fieldset> 

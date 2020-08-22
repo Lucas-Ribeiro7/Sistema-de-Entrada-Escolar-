@@ -26,4 +26,9 @@ require_once 'pessoa.php';
         public function mudarSetor($mud){
             $this->setSetor($mud);
         }
+
+        public function apresentarFuncionario(){
+            echo "<p><strong>Seu cadastro foi salvo com Sucesso!</strong></p><br><p>O Funcionario <strong>" . $this->getNome() . "</strong>, tem " . $this->getIdade() . " anos e do sexo " . $this->getSexo() . ", trabalha no setor <strong>" . $this->getSetor() . "</strong>.<br>Está oficalmente cadastrado.<p>";
+        }
+
     }
