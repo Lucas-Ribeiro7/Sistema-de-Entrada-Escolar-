@@ -43,7 +43,7 @@
 
             ?>
             <div class="voltar">
-            <a href="formulario_funcionario.php"><button>Novo Cadastro</button></a>
+            <a href="index.php"><button>Novo Cadastro</button></a>
             </div>
     </div>
 </body>

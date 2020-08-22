@@ -45,7 +45,7 @@
 
             ?>
             <div class="voltar">
-            <a href="formulario_professor.php"><button>Novo Cadastro</button></a>
+            <a href="index.php"><button>Novo Cadastro</button></a>
             </div>
     </div>
 </body>
